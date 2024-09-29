@@ -1,0 +1,127 @@
+/* body starts*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* body ends */
+
+
+
+/* header  starts */
+header{
+    background: rgb(22, 22, 158);
+    display: flex;
+    flex: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.header-text{
+    margin:50px 40px;
+    margin-bottom: 20px;
+    
+    color: rgb(245, 248, 217);
+    font-size:large;
+      
+}
+
+h1{
+    color: white;
+    margin-bottom: 2px;
+    font-size: 50px;
+}
+
+h5{
+    margin-top: 0%;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+.icons{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.header-text p{
+    padding-bottom:25px ;
+    
+}
+
+img{
+    width:190px;
+    height:210px;
+    margin-top: 55px ;
+    margin-right: 55px; 
+    border: 2px ,solid, white ;
+}
+span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* header  ends */
+
+
+
+/* section heading starts */
+.section-heading{
+    width: 98%;
+    border-bottom: 2px solid rgb(9, 53, 248); 
+    margin-top: 20px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+.section-heading h3{
+    width: 250px;
+    background-color:rgb(9, 53, 248); 
+    padding: 5px;
+    text-align: left;
+    padding-left: 50px;;
+}
+/* section heading ends */
+
+
+
+/* job section strats */
+.job-section{
+    display: flex;
+    padding-top:20px;
+    
+
+}
+.job-title-date{
+    text-align: right;
+    margin-right: 15px;
+    width: 12%;
+}
+.company-name-text{
+    width: 80%;
+}
+/* job section ends */
+
+
+
+/* education section starts */
+.college-title{
+    display: flex;
+    padding-top:20px;
+}
+.college-name-year{
+    text-align: right;
+    width: 15%;
+    margin-right: 20px;
+}
+.degree-details{
+    width: 80%;
+}
+/* education section ends */
+
+
+
+/* communication section  starts*/
+.communication-text{
+    margin-left: 20px;
+    padding: 20px
+    
+}
+/* communication section  ends*/
