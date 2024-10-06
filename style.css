@@ -1,61 +1,70 @@
 /* body starts*/
-*{
+* {
     margin: 0%;
     padding: 0%;
     font-family: "Open Sans", sans-serif;
 }
+
 /* body ends */
 
 
 
 /* <!------------------------------- header start ------------------------------------------> */
-header{
+header {
     background: rgb(22, 22, 158);
     display: flex;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    
+
+    padding: 50px 50px 0px 50px;
 }
 
-.header-text{
-    margin:50px 30px 20px 55px;
+.header-text {
     color: rgb(245, 248, 217);
-    font-size:large;
-      
+    font-size: large;
+    flex: 2;
+    padding-bottom: 20px;
+
 }
 
-h1{
+.header-text > h1 {
     color: white;
-    margin-bottom: 2px;
+    margin-bottom: -1%;
     font-size: 50px;
 }
 
-h5{
+.header-text > h5 {
     margin-top: 0%;
     padding-bottom: 25px;
     font-size: 25px;
     font-weight: 400;
 }
-.icons{
+
+.header-text > .icons {
     padding-top: 10px;
     margin-top: 10px;
 }
-.header-text p{
-    padding-bottom:25px ;
-    
+
+.header-text > p {
+    padding-bottom: 25px;
+
 }
-.header-text  span{
+
+.header-text > span {
     padding-left: 1px;
     padding-right: 10px;
 }
 
-.header-image  img{
-    width: 200px;
-    height:220px;
-    margin-top: 55px ;
-    margin-right: 55px; 
-    border: 2px ,solid, white ;
+.header-image {
+    padding: 10px 20px 30px 20px;
 }
+
+.header-image > img {
+    width: 200px;
+    height: 220px;
+    border: 2px, solid, white;
+    flex: 1;
+
+}
+
 /* <!------------------------------- header start ------------------------------------------> */
 
 
@@ -63,72 +72,76 @@ h5{
 
 /* <!------------------------------- Work-experience starts -------------------------------> */
 
-.work-experience-heading
-{
+#work-experience > h3 {
     width: 98%;
-    border-bottom: 2px solid rgb(9, 53, 248); 
-    margin-top: 20px;
-    align-items: center;
+    border-bottom: 2px solid rgb(9, 53, 248);
     color: white;
-    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 20px;
 }
-.work-experience-heading h3{
-    width: 250px;
-    background-color:rgb(9, 53, 248); 
+
+#work-experience > h3 > span {
+    background-color: rgb(9, 53, 248);
     padding: 5px;
     text-align: left;
     padding-left: 50px;
+    padding-right: 50px;
 }
 
-.job-details{
+.job-details {
     display: flex;
-    padding-top:20px;
-    
+    padding-top: 20px;
+
 
 }
-.job-title-date{
+
+.job-title-date {
     text-align: right;
-    margin-right: 15px;
+    padding-right: 15px;
     width: 12%;
 }
-.company-name-text{
+
+.company-name-text {
     width: 80%;
 }
+
 /* <!------------------------------- Work-experience ends -------------------------------> */
 
 
 
 
 /* <!------------------------------- Education-section starts ---------------------------> */
-.education-heading
-{
+#education > h3 {
     width: 98%;
-    border-bottom: 2px solid rgb(9, 53, 248); 
-    margin-top: 20px;
-    align-items: center;
+    border-bottom: 2px solid rgb(9, 53, 248);
     color: white;
-    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 20px;
 }
-.education-heading h3{
-    width: 250px;
-    background-color:rgb(9, 53, 248); 
+
+#education > h3 >span {
+    background-color: rgb(9, 53, 248);
     padding: 5px;
     text-align: left;
     padding-left: 50px;
+    padding-right: 110px;
 }
 
-.college-details{
+.college-details {
     display: flex;
-    padding-top:20px;
+    padding-top: 20px;
 }
-.college-name-year{
+
+.college-name-year {
     text-align: right;
     width: 15%;
-    margin-right: 20px;
+    padding-right: 20px;
 }
-.degree-details{
+
+.degree-details {
     width: 80%;
 }
+
 /* <!------------------------------- Education-section ends  --------------------------------> */
 
 
@@ -137,27 +150,25 @@ h5{
 /* <!------------------------------- Communication-section starts ---------------------------> */
 
 
-.communication-heading
-{
+#communication > h3 {
     width: 98%;
-    border-bottom: 2px solid rgb(9, 53, 248); 
-    margin-top: 20px;
-    align-items: center;
+    border-bottom: 2px solid rgb(9, 53, 248);
     color: white;
-    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 20px;
 }
-.communication-heading h3{
-    width: 250px;
-    background-color:rgb(9, 53, 248); 
+
+#communication> h3 >span {
+    background-color: rgb(9, 53, 248);
     padding: 5px;
     text-align: left;
     padding-left: 50px;
+    padding-right: 50px;
 }
-.communication-text{
-    margin-left: 20px;
-    padding: 20px;
-    padding-right: 35px;
-    
-}
-/* <!------------------------------- Communication-section ends   ---------------------------> */
 
+.communication-text {
+    padding: 20px 35px 20px 50px ;
+
+}
+
+/* <!------------------------------- Communication-section ends   ---------------------------> */
